@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+
 .App {
   text-align: center;
+  
+}
+
+body {
+  background-color: #2C2E43;
+  font-family: 'Encode Sans SC', sans-serif;
+  color: #53B8BB;
 }
 
 .App-logo {

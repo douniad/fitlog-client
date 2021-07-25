@@ -1,0 +1,43 @@
+.headerdiv {
+    height: 100px;
+    font-family: 'Encode Sans SC', sans-serif;
+    background-color: #53B8BB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.justheader {
+height: 100px;
+padding-left: 2%;
+display: flex;
+justify-content: flex-start;
+align-self: center;
+
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headernavlinks {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2C2E43;
+}
+
+.headerdiv h1, h1 a {
+    color: #2C2E43;
+    text-decoration: none;
+    text-decoration-color: #F3F2C9;
+    font-family: 'Encode Sans SC', sans-serif;
+    height: 15px;
+    width: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}

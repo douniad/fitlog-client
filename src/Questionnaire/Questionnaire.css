@@ -1,0 +1,41 @@
+ul {
+    list-style-type:  none;
+}
+
+.firstquestion, .secondquestion, .thirdquestion {
+    text-align: start;
+}
+
+.firstquestion:checked, .secondquestion:checked, .thirdquestion:checked {
+    color: black;
+}
+
+.h2 {
+    display: flex;
+    align-self: center;
+    background-color: #53B8BB;
+    color: #2C2E43;
+    max-height: 3px;
+    width: 100%;
+}
+
+.questionnaireform {
+    border: none;
+}
+
+.submitquestionnaire {
+    font-family: 'Encode Sans SC', sans-serif;
+    padding: 8px 20px;
+    background-color: #53B8BB;
+    color: #2C2E43;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+    border: 1px solid #53B8BB;
+}
+
+.submitquestionnaire:hover {
+    background-color: #2C2E43;
+    color: #53B8BB;
+   
+}

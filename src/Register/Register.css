@@ -1,0 +1,68 @@
+form {
+    text-align: center;
+    width: 50%;
+    border-radius: 8px;
+    border: 2px solid #F3F2C9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 10px 20px 10px ;
+    
+
+}
+   
+ 
+
+input {
+    padding: 2px;
+}
+
+
+label, p {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #53B8BB;
+    font-weight: bolder;
+    text-align: center;
+}
+
+label {
+    margin-right: 8px;
+}
+
+.submitregistration {
+    font-family: 'Encode Sans SC', sans-serif;
+    margin-bottom: 15px;
+        color: #53B8BB;
+        font-weight: bolder;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+     padding: 8px 100px ;
+     border-radius: 1px;
+     background-color: #2C2E43;
+     border: 1px solid #F3F2C9;
+     font-weight: bolder;
+}
+
+.submitregistration:hover {
+    background-color: #53B8BB;
+    color: #2C2E43;
+    border: #2C2E43;
+}
+
+
+
+p a{
+    text-decoration: none;
+}
+
+p a {
+    color: #F3F2C9;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.registrationdiv {
+    margin-top: 10%; 
+}

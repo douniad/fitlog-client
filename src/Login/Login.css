@@ -1,0 +1,75 @@
+.red {
+    background-color: red;
+}
+
+.buttonlogin {
+    font-family: 'Encode Sans SC', sans-serif;
+    margin-bottom: 15px;
+        color: #53B8BB;
+        font-weight: bolder;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+     padding: 8px 100px ;
+     border-radius: 1px;
+     background-color: #2C2E43;
+     border: 1px solid #F3F2C9;
+     font-weight: bolder;
+}
+
+
+.loginform {
+    text-align: center;
+    width: 50%;
+    border-radius: 8px;
+    border: 3px solid #F3F2C9;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 10px 20px 10px;
+   
+}
+
+input {
+    padding: 2px;
+}
+
+.labels {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #53B8BB;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 8px;
+}
+
+
+
+.p {
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #53B8BB;
+}
+
+.p a {
+    text-decoration: none;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #F3F2C9;
+}
+
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.logindiv {
+    margin-top: 10%;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.buttonlogin:hover {
+    background-color: #53B8BB;
+    color: #2C2E43;
+    border: #2C2E43;
+}
+

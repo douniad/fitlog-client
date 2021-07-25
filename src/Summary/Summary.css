@@ -1,0 +1,9 @@
+.differentsummaries {
+    display: flex;
+    flex-direction: column;
+}
+
+.summarydate {
+    background-color: #53B8BB;
+    color: #2C2E43;
+}
