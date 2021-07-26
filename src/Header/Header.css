@@ -1,5 +1,5 @@
 .headerdiv {
-    height: 100px;
+    height: 60px;
     font-family: 'Encode Sans SC', sans-serif;
     background-color: #53B8BB;
     display: flex;
@@ -10,11 +10,11 @@
 }
 
 .justheader {
-height: 100px;
+height: 60px;
 padding-left: 2%;
 display: flex;
 justify-content: flex-start;
-align-self: center;
+align-items: center;
 
 }
 
@@ -33,9 +33,8 @@ align-self: center;
 .headerdiv h1, h1 a {
     color: #2C2E43;
     text-decoration: none;
-    text-decoration-color: #F3F2C9;
     font-family: 'Encode Sans SC', sans-serif;
-    height: 15px;
+    font-size: larger;
     width: 20px;
     margin: 0;
     display: flex;

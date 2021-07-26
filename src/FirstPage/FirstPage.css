@@ -1,6 +1,9 @@
 .firstpage {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    cursor: pointer;
 }
 
 h1 {    
@@ -22,15 +25,10 @@ h2 {
     padding-bottom: 2rem;
 }
 
-.firstpage {
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    cursor: pointer;
-}
 
-.secondsection {
+.loggedout {
     display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
 
