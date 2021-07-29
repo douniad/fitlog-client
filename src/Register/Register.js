@@ -77,9 +77,9 @@ export default class RegistrationForm extends Component {
               id='RegistrationForm__password'>
             </input>
             </div>
-          <NavLink to={'/questionnaire'}><button className="submitregistration" type='submit'>
+          <button className="submitregistration" type='submit'>
             Register
-          </button></NavLink>
+          </button>
   
           
           
