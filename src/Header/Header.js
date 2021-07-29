@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link,} from 'react-router-dom';
 import './Header.css'
 import { NavLink } from 'react-router-dom'
 import FitLogContext from '../FitLogContext';
@@ -25,16 +25,16 @@ class Header extends Component {
 
     renderLoggedInHeader() {
         return (
-            <BrowserRouter> <div>
+            <div>
                 <NavLink className="headernavlinks" to={'/questionnaire'}>Questionnaire</NavLink>
                 <NavLink className="headernavlinks" to={'/summaries'}>Summary Board</NavLink>
             </div>
-            </BrowserRouter>
+            
         )
     }
 
     renderLogoutLink() {
-        return ( <BrowserRouter>
+        return ( 
             <div>
                 <Link className="headernavlinks"
                     onClick={this.handleLogoutClick}
@@ -42,12 +42,12 @@ class Header extends Component {
                     Logout
                 </Link>
             </div>
-            </BrowserRouter>
+         
         )
     }
 
     renderLoginLink() {
-        return ( <BrowserRouter>
+        return (
             <div>
                 <Link className="headernavlinks"
                     to='/register'>
@@ -59,14 +59,14 @@ class Header extends Component {
                     Log in
                 </Link>
             </div>
-            </BrowserRouter>
+            
         )
     }
 
 
     render() {
         return (
-            <BrowserRouter>
+           
             <div className="headerdiv">
                 <section className="justheader">
                     <h1>
@@ -84,7 +84,7 @@ class Header extends Component {
 
                 </section>
             </div>
-            </BrowserRouter>
+           
         )
     }
 }

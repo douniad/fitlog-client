@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {NavLink, BrowserRouter} from 'react-router-dom'
+import {NavLink,} from 'react-router-dom'
 import FitLogContext from '../FitLogContext'
 import AuthApiService from '../Services/Auth-Api-Service'
 import './Login.css'
@@ -35,7 +35,7 @@ export default class Login extends Component {
     render() {
       const { error } = this.state
       return (
-        <BrowserRouter>
+      
         <div className="logindiv">
         <form
           className='loginform'
@@ -72,7 +72,7 @@ export default class Login extends Component {
         </form>
   <p className="p">Don't have an account yet? <NavLink to={'/register'}>Register</NavLink></p>
         </div>
-        </BrowserRouter>
+     
       )
     }
   }
