@@ -9,11 +9,12 @@ class FirstPage extends Component {
 static contextType = FitLogContext
 
 renderLoggedOutFirstPage() {
-    return 
+    return (
     <div className="loggedout">
         <NavLink className="linknoline" to={'/register'}><button type="button" className="registerbutton">Register</button></NavLink>
         <NavLink className="linknoline" to={'/login'}><button type="button" className="loginbutton">Log In</button></NavLink>
     </div>
+    )
     
 }
 
