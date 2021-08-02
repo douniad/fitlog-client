@@ -34,7 +34,7 @@ class Summary extends Component {
                     <ul className="differentsummaries">
                         <li className="summarydate">{summary.date_created}</li>
                         <li className="summaryduration">{summary.duration} </li>
-                        <li className="summary.area">{summary.area}</li>
+                        <li className="summary.area">{summary.area.map(a => <p>{a}</p>)}</li>
                         <li className="summarysatisfaction">{summary.satisfaction}</li>
                     </ul>
                 ))}
