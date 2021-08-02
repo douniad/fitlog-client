@@ -3,6 +3,7 @@ import FitLogContext from '../FitLogContext'
 import config from '../config.js'
 import TokenService from '../Services/Token-Service'
 import './Summary.css'
+import moment from 'moment'
 
 class Summary extends Component {
 
@@ -10,6 +11,8 @@ class Summary extends Component {
     state = {
         summaries: [],
     }
+
+    
 
     componentDidMount() {
         fetch(config.API_ENDPOINT + '/summaries', {
@@ -32,7 +35,7 @@ class Summary extends Component {
             <div className="displaysummaries">
                 {this.state.summaries.map(summary => (
                     <ul className="differentsummaries">
-                        <li className="summarydate">{summary.date_created}</li>
+                        <li className="summarydate">{moment(summary.date_created).format("MM/DD/YYYY HH:mm")}</li>
                         <li className="summaryduration">{summary.duration} </li>
                         <li className="summary.area">{summary.area.map(a => <p>{a}</p>)}</li>
                         <li className="summarysatisfaction">{summary.satisfaction}</li>
