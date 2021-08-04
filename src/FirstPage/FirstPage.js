@@ -11,6 +11,7 @@ static contextType = FitLogContext
 renderLoggedOutFirstPage() {
     return (
     <div className="loggedout">
+                    <NavLink className="linknoline" to={'/gettingstarted'}><button type="button" className="gettingstartedbutton">Getting Started</button></NavLink>
         <NavLink className="linknoline" to={'/register'}><button type="button" className="registerbutton">Register</button></NavLink>
         <NavLink className="linknoline" to={'/login'}><button type="button" className="loginbutton">Log In</button></NavLink>
     </div>
