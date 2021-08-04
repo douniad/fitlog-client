@@ -15,6 +15,7 @@ import config from '../config'
 import Summary from '../Summary/Summary'
 import Questionnaire from '../Questionnaire/Questionnaire'
 import FirstPage from '../FirstPage/FirstPage'
+import GettingStarted from '../GettingStarted/GettingStarted'
 
 
 const { v4: uuidv4 } = require('uuid')
@@ -117,6 +118,7 @@ class App extends Component {
                         <PrivateRoute path={'/summaries'} component={Summary} />
                         <PrivateRoute path={'/questionnaire'} component={Questionnaire} />
                         <PrivateRoute path={'/summaryboard'} component={SummaryBoard}/>
+                        <PublicOnlyRoute path={'/gettingstarted'} component={GettingStarted}/>
                     
 
                     </main>
